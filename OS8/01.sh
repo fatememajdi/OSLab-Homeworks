@@ -1,4 +1,4 @@
-git config --global user.email
+cd Documents/OSLab-Homeworks/
 git config --global user.email "fatemehmajdiii@gmail.com"
 git config --global user.name "fatememajdi"
 git config --global credential.helper cache
