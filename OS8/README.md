@@ -1,6 +1,7 @@
 1)
   git config --global user.email : این دستور برای وارد کردن ایمیل است
-  git config --global user.name : برای وارد کردن نام کاربری
+ .
+ git config --global user.name : برای وارد کردن نام کاربری
   git config --global credential.helper cache : برای استفاده از حافظه پنهان 
   git config --global user.email 'cache --timeout=86400' : برای قرار دادن تایم حافظه پنهان روی 24 ساعت
   
