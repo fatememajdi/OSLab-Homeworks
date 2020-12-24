@@ -1,8 +1,12 @@
 1)
- 1.1) git config --global user.email : این دستور برای وارد کردن ایمیل است
- 1.2)git config --global user.name : برای وارد کردن نام کاربری
- 1.3)git config --global credential.helper cache : برای استفاده از حافظه پنهان 
- 1.4)git config --global user.email 'cache --timeout=86400' : برای قرار دادن تایم حافظه پنهان روی 24 ساعت
+ 1.1)
+      git config --global user.email : این دستور برای وارد کردن ایمیل است
+ 1.2)      
+      git config --global user.name : برای وارد کردن نام کاربری
+ 1.3) 
+      git config --global credential.helper cache : برای استفاده از حافظه پنهان 
+ 1.4) 
+      git config --global user.email 'cache --timeout=86400' : برای قرار دادن تایم حافظه پنهان روی 24 ساعت
   
 2)
  2.1) ls -lh : این درستور برای نمایش لیستی از فایل هادر فرمت طولانی و اندازه های قابل خواندن به جای بایت استفاده می شود
