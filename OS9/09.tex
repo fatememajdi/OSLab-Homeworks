@@ -1,0 +1,77 @@
+\documentclass[12pt]{article}
+
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\begin{document}
+\title{Homework 9}
+\maketitle
+\section{Text}
+Read a book and show its beauty in your behavior\\
+Culture becomes just as strong.\\
+If you do not, you are falling.\\
+\section{Table}
+\begin{table}[h]
+    \begin{center}
+         some suggested books: \\
+         \begin{tabular}{|c|c|c|c|}
+           \hline
+           \textbf{} & \textbf{Name} & \textbf{Author}&\textbf{Genre}\\
+           \hline
+           1 & Sophie's World & Jostein Gaarder & Philosophical novel \\
+           \hline
+           2 & One Hundred Years of Solitude & Gabriel García Márquez & Magic realism \\
+           \hline
+           3 & Blindness & José Saramago & Apocalyptic fiction \\
+           \hline
+        \end{tabular}
+     \end{center}
+\end{table}
+\section{Formulas}
+\[ (a^b)^{c+d} = a^{bc+bc}  \]
+\[
+    \binom{n}{k} = \frac{n!}{k!(n-k)!}
+\]
+
+
+
+
+\section{Code}
+  (Fibonacci)\\
+  \begin{lstlisting}[language=C++]
+  #include<iostream>
+
+using namespace std;
+
+void ShowFibNth(long int firstNum, long int secondNum)
+{
+	if (secondNum - firstNum != 0)
+	{
+		cout << firstNum << endl;
+		ShowFibNth(secondNum - firstNum, firstNum);
+	}
+	else
+		cout << firstNum;
+}
+
+int main()
+{
+	long int firstNum, secondNum;
+	cin >> firstNum >> secondNum;
+	ShowFibNth(firstNum, secondNum);
+	system("pause>n");
+}
+  \end{lstlisting}
+
+\section{Image}
+\begin{figure}
+  \centering
+  photoes of the three  mentioned books:\\
+  \includegraphics[width=4cm]{Gabo}
+  \includegraphics[width=4cm]{sophie's world}
+  \includegraphics[width=4cm]{blindness}
+\end{figure}
+
+
+\end{document} 
