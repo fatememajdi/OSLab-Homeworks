@@ -1,17 +1,17 @@
 1.Include the needed packages
 2.Commands:
-Title : \title{}
+1)Title : \title{}
           \maketitle
-Section : \section{}
-New line : \
-Table : \begin{table}
+2)Section : \section{}
+3)New line : \
+4)Table : \begin{table}
            \centering
            \caption{}\label{}
         \end{table}
-Furmula : \[  \]
-Code : \begin{lstlisting}[language=]
+5)Furmula : \[  \]
+6)Code : \begin{lstlisting}[language=]
        \end{lstlisting}
-Image : \begin{figure}
+7)Image : \begin{figure}
             \centering
             \includegraphics[width=]{}
             \caption{}\label{}
