@@ -1,10 +1,6 @@
 #!/bin/bash
 while true
 do
-echo add = +
-echo subtract = -
-echo multiply = .
-echo division = /
 echo Enter operator :
 read op
 echo Enter first number :
@@ -14,9 +10,9 @@ read SecondNum
 if [ $op == "-" ]
 then
 echo $FirstNum $op $SecondNum = $((FirstNum-SecondNum))
-elif [ $op == "." ]
+elif [ "$op" == "*" ]
 then
-echo $FirstNum $op $SecondNum = $((FirstNum*SecondNum))
+echo $FirstNum "$op" $SecondNum = $((FirstNum*SecondNum))
 elif [ $op == "+" ]
 then
 echo $FirstNum $op $SecondNum = $((FirstNum+SecondNum))
